@@ -6,6 +6,7 @@
 .. link: 
 .. description: Landing Page
 .. type: text
+.. hidetitle: true
 
 | uid Daniel M. Capella <polyzen@archlinux.info>
 | pub rsa2048/25698AEA_ 2015-02-27
