@@ -4,7 +4,7 @@
 .. tags: 
 .. category: 
 .. link: 
-.. description: 
+.. description: Landing Page
 .. type: text
 
 | uid Daniel M. Capella <polyzen@archlinux.info>
