@@ -770,8 +770,8 @@ FEED_LINKS_APPEND_QUERY = False
 LICENSE = """
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License BY-NC-SA"
-style="border-width:0; margin-bottom:12px; vertical-align:top"
-src="cc-by-nc-sa.png"></a>"""
+style="border-width:0; margin-bottom:12px;"
+src="88x31.png"></a>"""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 # LICENSE = """
