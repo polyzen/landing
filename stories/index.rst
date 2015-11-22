@@ -8,7 +8,7 @@
 .. type: text
 .. hidetitle: true
 
-.. class:: col-sm-8
+.. class:: col-sm-8 text-center
 
 | uid Daniel M. Capella <polyzen@archlinux.info>
 | pub rsa2048/25698AEA_ 2015-02-27
@@ -22,3 +22,4 @@
    :width: 125px
    :alt: Linux Professional Institute: LPIC-1 Certified
    :target: https://www.youracclaim.com/badges/640fd8f2-252b-461f-aa8a-ec672017bf75/public_url
+   :align: center
