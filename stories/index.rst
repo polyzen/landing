@@ -8,11 +8,14 @@
 .. type: text
 .. hidetitle: true
 
+.. class:: col-sm-8
+
 | uid Daniel M. Capella <polyzen@archlinux.info>
 | pub rsa2048/25698AEA_ 2015-02-27
 
 .. _25698AEA: https://pgp.mit.edu/pks/lookup?op=vindex&search=0xC27E53E2
 
+.. class:: col-sm-4
 
 .. image:: LPI_LPIC1.png
    :height: 125px
