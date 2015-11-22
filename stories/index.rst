@@ -13,6 +13,9 @@
 
 .. _25698AEA: https://pgp.mit.edu/pks/lookup?op=vindex&search=0xC27E53E2
 
-.. raw:: html
 
-    <a href="https://www.youracclaim.com/badges/640fd8f2-252b-461f-aa8a-ec672017bf75/public_url"><img src="LPI_LPIC1.png" alt="Linux Professional Institute: LPIC-1 Certified" width="125" height="125" title="LPIC-1 Certified"></a>
+.. image:: LPI_LPIC1.png
+   :height: 125px
+   :width: 125px
+   :alt: Linux Professional Institute: LPIC-1 Certified
+   :target: https://www.youracclaim.com/badges/640fd8f2-252b-461f-aa8a-ec672017bf75/public_url
