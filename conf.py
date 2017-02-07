@@ -762,9 +762,8 @@ FEED_LINKS_APPEND_QUERY = False
 # (translatable)
 LICENSE = """
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-<img alt="Creative Commons License BY-NC-SA"
-style="border-width:0; margin-bottom:12px;"
-src="88x31.png"></a>"""
+<img alt="Creative Commons License BY-NC-SA" style="margin-bottom:4px"
+src="cc-by-nc-sa.png"></a>"""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 # LICENSE = """
@@ -775,7 +774,7 @@ src="88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '<a href="mailto:{email}">Contents &copy; {date}</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> {license}'
+CONTENT_FOOTER = '<a href="mailto:{email}">Contents &copy; {date}</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> - {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
