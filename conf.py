@@ -129,13 +129,6 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('https://github.com/polyzen', 'GitHub'),
-        (
-            (
-                ('/Resume.html', 'HTML'),
-                ('/Resume.pdf', 'PDF'),
-            ),
-                'Résumé'
-        ),
         ('https://wiki.lacto.se', 'Wiki'),
 #        ("/archive.html", "Archives"),
 #        ("/categories/index.html", "Tags"),
