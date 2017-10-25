@@ -7,7 +7,7 @@ python: 3.6
 before_install: pip install --upgrade pip wheel
 install: pip install 'Nikola[extras]'
 script:
-  - nikola bootswatch_theme -n readable -s readable
+  - nikola bootswatch_theme -n bootswatch-readable -s readable
   - nikola build
 notifications:
   email:
