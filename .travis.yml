@@ -1,15 +1,11 @@
 language: python
-cache: apt
-addons:
-  apt:
-    packages: language-pack-en-base
 python: 3.6
-before_install: pip install --upgrade pip wheel
-install: pip install 'Nikola[extras]'
+git:
+  depth: 1
+cache: pip
+install:
+  - pip install Nikola
+  - pip install webassets
 script:
   - nikola bootswatch_theme -n bootswatch-readable -s readable
   - nikola build
-notifications:
-  email:
-    on_success: change
-    on_failure: always
