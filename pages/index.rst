@@ -10,10 +10,10 @@
 
 .. class:: col-sm-8 text-center
 
-| uid Daniel M. Capella <polyzen@archlinux.info>
-| pub rsa2048/25698AEA_ 2015-02-27
+| uid Daniel M. Capella <polycitizen@gmail.com>
+| pub rsa4096/EA4F7B321A906AD9__ 2016-01-03
 
-.. _25698AEA: https://pgp.mit.edu/pks/lookup?op=vindex&search=0xC27E53E2
+__ https://pgp.mit.edu/pks/lookup?op=vindex&search=0xEA4F7B321A906AD9
 
 .. class:: col-sm-4
 
