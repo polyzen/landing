@@ -21,11 +21,11 @@ BLOG_AUTHOR = "Daniel M. Capella"  # (translatable)
 BLOG_TITLE = "Daniel M. Capella"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://danielcapella.com/"
+SITE_URL = "https://danielcapella.com"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "polyzen@archlinux.info"
+BLOG_EMAIL = "polycitizen@gmail.com"
 BLOG_DESCRIPTION = "My slice of the internet."  # (translatable)
 
 # Nikola is multilingual!
