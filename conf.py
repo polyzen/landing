@@ -134,8 +134,9 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('https://github.com/polyzen', 'GitHub'),
         ('https://wiki.lacto.se', 'Wiki'),
+        ('https://github.com/polyzen', 'GitHub'),
+        ('https://twitter.com/danielmcapella', 'Twitter'),
 #        ("/archive.html", "Archives"),
 #        ("/categories/index.html", "Tags"),
 #        ("/rss.xml", "RSS feed"),
