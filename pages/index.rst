@@ -4,9 +4,13 @@
 .. tags: 
 .. category: 
 .. link: 
-.. description: Landing Page
+.. description: Landing page
 .. type: text
 .. hidetitle: true
+
+.. raw:: html
+
+   <div class="row">
 
 .. class:: col-sm-8 text-center
 
@@ -23,3 +27,7 @@ __ https://pgp.mit.edu/pks/lookup?op=vindex&search=0xEA4F7B321A906AD9
    :alt: Linux Professional Institute: LPIC-1 Certified
    :target: https://www.youracclaim.com/badges/640fd8f2-252b-461f-aa8a-ec672017bf75/public_url
    :align: center
+
+.. raw:: html
+
+   </div>
