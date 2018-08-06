@@ -136,6 +136,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('https://wiki.lacto.se', 'Wiki'),
         ('https://github.com/polyzen', 'GitHub'),
+        ('https://gitlab.com/polyzen', 'GitLab'),
         ('https://twitter.com/danielmcapella', 'Twitter'),
 #        ("/archive.html", "Archives"),
 #        ("/categories/index.html", "Tags"),
