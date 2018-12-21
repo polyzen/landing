@@ -25,7 +25,7 @@ SITE_URL = "https://danielcapella.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "polycitizen@gmail.com"
+BLOG_EMAIL = "polyzen@archlinux.org"
 BLOG_DESCRIPTION = "My slice of the internet."  # (translatable)
 
 # Nikola is multilingual!

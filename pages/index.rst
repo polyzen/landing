@@ -14,7 +14,7 @@
 
 .. class:: col-lg-6 offset-lg-2 align-self-center
 
-| uid Daniel M. Capella <polycitizen@gmail.com>
+| uid Daniel M. Capella <polyzen@archlinux.org>
 | pub rsa4096/EA4F7B321A906AD9__ 2016-01-03
 
 __ https://pgp.mit.edu/pks/lookup?op=vindex&search=0xEA4F7B321A906AD9
