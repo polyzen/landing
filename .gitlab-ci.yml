@@ -1,0 +1,18 @@
+image: registry.gitlab.com/paddy-hack/nikola
+
+test:
+  script:
+    - nikola build
+  except:
+    - master
+
+pages:
+  script:
+    - pip3 install webassets
+    - nikola build
+    - mv output public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
