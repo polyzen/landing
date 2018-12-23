@@ -8,7 +8,6 @@ test:
 
 pages:
   script:
-    - pip3 install webassets
     - nikola build
     - mv output public
   artifacts:
