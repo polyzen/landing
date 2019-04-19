@@ -1284,7 +1284,7 @@ GENERATE_RSS = False
 # Bundle JS and CSS into single files to make site loading faster in a HTTP/1.1
 # environment but is not recommended for HTTP/2.0 when caching is used.
 # Defaults to True.
-# USE_BUNDLES = True
+USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
 DISABLED_PLUGINS = ["classify_archive","classify_categories","classify_indexes","classify_page_index","classify_sections","classify_tags","render_galleries","render_listings","render_tag_cloud"]
