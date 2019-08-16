@@ -17,7 +17,7 @@
 | uid Daniel M. Capella <polyzen@archlinux.org>
 | pub rsa4096/EA4F7B321A906AD9__ 2016-01-03
 
-__ https://sks-keyservers.net/pks/lookup?op=vindex&fingerprint=on&exact=on&search=0xEA4F7B321A906AD9
+__ https://keys.openpgp.org/vks/v1/by-fingerprint/04DC3FB1445FECA813C27EFAEA4F7B321A906AD9
 
 .. class:: col-lg-4
 
