@@ -1,15 +1,20 @@
-image: registry.gitlab.com/paddy-hack/nikola
+image: node:alpine
 
-test:
+cache:
+  paths:
+    - node_modules
+
+test_html:
+  stage: test
   script:
-    - nikola build
-  except:
-    - master
+    - npm install htmlhint -g
+    - htmlhint index.html
 
 pages:
+  stage: deploy
   script:
-    - nikola build
-    - mv output public
+    - mkdir public
+    - mv *.* public
   artifacts:
     paths:
       - public
