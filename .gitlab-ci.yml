@@ -4,6 +4,12 @@ cache:
   paths:
     - node_modules
 
+test_css:
+  stage: test
+  script:
+    - npm install csslint -g
+    - csslint style.css
+
 test_html:
   stage: test
   script:
