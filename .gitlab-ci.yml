@@ -4,16 +4,10 @@ cache:
   paths:
     - node_modules
 
-test_css:
-  stage: test
+lint:
   script:
-    - npm install csslint -g
+    - npm install csslint htmlhint -g
     - csslint style.css
-
-test_html:
-  stage: test
-  script:
-    - npm install htmlhint -g
     - htmlhint index.html
 
 pages:
