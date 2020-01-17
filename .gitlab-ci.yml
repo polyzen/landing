@@ -1,10 +1,8 @@
-image: node:alpine
-
-cache:
-  paths:
-    - node_modules
-
 lint:
+  image: node:alpine
+  cache:
+    paths:
+      - node_modules
   script:
     - npm install csslint htmlhint -g --no-audit
     - csslint style.css
@@ -12,6 +10,7 @@ lint:
 
 pages:
   stage: deploy
+  image: alpine
   script:
     - mkdir public
     - mv *.* public
