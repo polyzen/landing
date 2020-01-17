@@ -1,3 +1,8 @@
+default:
+  artifacts:
+    paths:
+      - public
+
 lint:
   image: node:alpine
   cache:
@@ -7,17 +12,15 @@ lint:
     - npm install csslint htmlhint -g --no-audit
     - csslint style.css
     - htmlhint index.html
+  after_script:
+    - mkdir public
+    - mv *.* public
 
 pages:
   stage: deploy
   image: alpine
   script:
     - apk add brotli
-    - brotli *
-    - mkdir public
-    - mv *.* public
-  artifacts:
-    paths:
-      - public
+    - brotli public/*
   only:
     - master
