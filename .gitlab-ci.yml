@@ -6,7 +6,7 @@ cache:
 
 lint:
   script:
-    - npm install csslint htmlhint -g
+    - npm install csslint htmlhint -g --no-audit
     - csslint style.css
     - htmlhint index.html
 
