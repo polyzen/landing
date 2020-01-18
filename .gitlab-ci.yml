@@ -18,6 +18,8 @@ lint:
 
 pages:
   stage: deploy
+  variables:
+    GIT_STRATEGY: none
   image: alpine
   script:
     - apk add brotli
