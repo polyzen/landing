@@ -12,6 +12,8 @@ pages:
   stage: deploy
   image: alpine
   script:
+    - apk add brotli
+    - brotli *
     - mkdir public
     - mv *.* public
   artifacts:
