@@ -8,8 +8,9 @@ lint:
   cache:
     paths:
       - node_modules
-  script:
+  before_script:
     - npm install csslint htmlhint -g --no-audit
+  script:
     - csslint style.css
     - htmlhint index.html
   after_script:
@@ -21,9 +22,9 @@ pages:
   variables:
     GIT_STRATEGY: none
   image: alpine
-  script:
+  before_script:
     - apk add brotli
-    - cd public
-    - brotli *
+  script:
+    - brotli public/*
   only:
     - master
