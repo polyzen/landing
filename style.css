@@ -1,5 +1,5 @@
 /* Scale font-size with viewport width
- * Soft min/max of 18 and 28px for viewport width range 300--1600px */
+ * Soft min/max of 18 and 28px for viewport width range 300–1600px */
 
 html { font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300))); }
 
