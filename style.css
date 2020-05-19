@@ -26,7 +26,7 @@ body {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  padding: 0 .83em;
+  padding: 0 0.83em;
   text-align: center;
 }
 
@@ -46,7 +46,7 @@ li { display: inline-block; }
 
 i {
   font-size: 2em;
-  margin: .25em;
+  margin: 0.25em;
 }
 
 span { display: none; } /* Conceal alt text for when there is no CSS */
