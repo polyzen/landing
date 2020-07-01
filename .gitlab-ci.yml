@@ -21,7 +21,6 @@ pages:
   variables:
     GIT_STRATEGY: none
   image: alpine
-  script:
-    - gzip -k public/*
+  script: gzip -k public/*
   only:
     - master
