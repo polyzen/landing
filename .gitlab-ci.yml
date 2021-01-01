@@ -21,6 +21,8 @@ pages:
   variables:
     GIT_STRATEGY: none
   image: alpine
-  script: gzip -k public/*
+  script:
+    - apk add brotli
+    - brotli public/*
   only:
     - master
