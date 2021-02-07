@@ -42,12 +42,17 @@ ul { padding-left: 0; }
 
 li {
   display: inline-block;
-  margin: 0.25em;
   vertical-align: middle;
 }
 
 a:link, a:visited { text-decoration: none; }
 
-img { width: 2.75em; }
+img {
+  margin: 0.25em;
+  width: 2.75em;
+}
 
-span { font-size: 2.5em; }
+span {
+  font-size: 2em;
+  margin: 0.3125em;
+}
