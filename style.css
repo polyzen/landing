@@ -5,18 +5,16 @@ html { font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300))); }
 
 /* gruvbox color scheme */
 
-body { background: #fbf1c7; }
-
-body, a { color: #3c3836; }
-
-a:hover { color: #7c6f64; }
+body {
+  background: #fbf1c7;
+  color: #3c3836;
+}
 
 @media (prefers-color-scheme: dark) {
-  body { background: #282828; }
-
-  body, a { color: #ebdbb2; }
-
-  a:hover { color: #a89984; }
+  body {
+    background: #282828;
+    color: #ebdbb2;
+  }
 }
 
 /* Center contents */
@@ -42,11 +40,14 @@ p { font-family: 'Open Sans', sans-serif; }
 
 ul { padding-left: 0; }
 
-li { display: inline-block; }
-
-i {
-  font-size: 2em;
+li {
+  display: inline-block;
   margin: 0.25em;
+  vertical-align: middle;
 }
 
-span { display: none; } /* Conceal alt text for when there is no CSS */
+a:link, a:visited { text-decoration: none; }
+
+img { width: 2.75em; }
+
+span { font-size: 2.5em; }
