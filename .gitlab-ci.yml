@@ -14,7 +14,7 @@ lint:
     - stylelint style.css
   after_script:
     - mkdir public
-    - mv *.* public
+    - mv *.* svg public
 
 pages:
   stage: deploy
@@ -23,6 +23,6 @@ pages:
   image: alpine
   script:
     - apk add brotli
-    - brotli public/*
+    - find public -type f -exec brotli {} +
   only:
     - master
