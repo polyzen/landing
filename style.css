@@ -26,8 +26,8 @@ body {
 
 /* Fonts */
 
-/* Soft min/max of 14px and 22px for viewport width range 300–1600px */
-html { font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300))); }
+/* Soft min/max of 16px and 20px for viewport width range 300–1600px */
+html { font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300))); }
 
 h1 {
   font-family: ui-sans-serif, system-ui, sans-serif;
