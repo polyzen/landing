@@ -41,14 +41,13 @@ p { font-family: ui-monospace, 'Roboto Mono', Menlo, Consolas, monospace; }
 /* List as row of icon links */
 
 ul {
-  font-size: 0;
+  column-gap: 1.25em;
+  display: flex;
+  font-size: 2em;
+  justify-content: center;
   padding-left: 0;
 }
 
-li {
-  display: inline-block;
-  font-size: 2rem;
-  margin: 0 0.625em;
-}
+li { display: inline-block; }
 
 a { text-decoration: none; }
