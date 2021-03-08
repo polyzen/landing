@@ -41,9 +41,10 @@ p { font-family: ui-monospace, 'Roboto Mono', Menlo, Consolas, monospace; }
 /* List as row of icon links */
 
 ul {
-  column-gap: 1.25em;
   display: flex;
+  flex-wrap: wrap;
   font-size: 2em;
+  gap: 1.25em;
   justify-content: center;
   padding-left: 0;
 }
