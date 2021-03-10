@@ -36,7 +36,10 @@ h1 {
   font-weight: normal;
 }
 
-p { font-family: ui-monospace, 'Roboto Mono', Menlo, Consolas, monospace; }
+p {
+  font-family: ui-monospace, 'Roboto Mono', Menlo, Consolas, monospace;
+  font-weight: 300;
+}
 
 /* List as row of icon links */
 
