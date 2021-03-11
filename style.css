@@ -28,8 +28,11 @@ body {
 
 /* Fonts */
 
-/* Interpolate 16–32px font-size for 320–3840px device-width */
-html { font-size: calc(16px + (32 - 16) * ((100vw - 320px) / (3840 - 320))); }
+html {
+  /* Interpolate 16–32px font-size for 320–3840px device-width */
+  font-size: calc(16px + (32 - 16) * ((100vw - 320px) / (3840 - 320)));
+  line-height: 1.5;
+}
 
 h1 {
   font-family: ui-sans-serif, system-ui, sans-serif;
