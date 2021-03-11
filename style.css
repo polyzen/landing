@@ -5,10 +5,18 @@ body {
   color: #3c3836;
 }
 
+@media (hover: hover) {
+  a:hover { background-color: #7c6f64; }
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #282828;
     color: #ebdbb2;
+  }
+
+  @media (hover: hover) {
+    a:hover { background-color: #a89984; }
   }
 }
 
