@@ -9,8 +9,7 @@ lint:
     paths:
       - node_modules
   script:
-    - npm install htmlhint stylelint stylelint-config-standard -g --no-audit
-    - htmlhint index.html
+    - npm install stylelint stylelint-config-standard -g --no-audit
     - stylelint style.css
   after_script:
     - mkdir public
