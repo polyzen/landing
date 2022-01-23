@@ -1,5 +1,6 @@
 "extends": "stylelint-config-standard"
 "rules": {
   "no-duplicate-selectors": null,
-  "selector-list-comma-newline-after": "always-multi-line"
+  "selector-list-comma-newline-after": "always-multi-line",
+  "string-quotes": "single",
 }
