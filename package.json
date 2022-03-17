@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "",
+    "@html-eslint/parser": "",
+    "eslint": "",
+    "stylelint": "",
+    "stylelint-config-standard": ""
+  }
+}

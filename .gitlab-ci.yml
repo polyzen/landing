@@ -7,10 +7,11 @@ lint:
   image: node:alpine
   cache:
     paths:
-      - node_modules
+      - .npm/
   script:
-    - npm install stylelint stylelint-config-standard -g --no-audit
-    - stylelint style.css
+    - npm install --no-audit --cache .npm --prefer-offline
+    - npx eslint index.html
+    - npx stylelint style.css
   after_script:
     - mkdir public
     - mv *.* public
