@@ -3,6 +3,7 @@
     "@html-eslint/eslint-plugin": "",
     "@html-eslint/parser": "",
     "eslint": "",
+    "prettier": "",
     "stylelint": "",
     "stylelint-config-standard": ""
   }
