@@ -6,5 +6,6 @@
     "prettier": "",
     "stylelint": "",
     "stylelint-config-standard": ""
-  }
+  },
+  "type": "module"
 }
