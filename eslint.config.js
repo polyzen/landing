@@ -5,7 +5,7 @@ import js from '@eslint/js';
 /** @type { import('eslint').Linter.Config[] } */
 const config = [
   {
-    files: ['**/*.css'],
+    files: ['style.css'],
     plugins: {
       css,
     },
@@ -16,7 +16,7 @@ const config = [
   },
   {
     ...html.configs['flat/recommended'],
-    files: ['**/*.html'],
+    files: ['index.html'],
     rules: {
       ...html.configs['flat/recommended'].rules,
       '@html-eslint/attrs-newline': 'off',
@@ -29,7 +29,7 @@ const config = [
     },
   },
   {
-    files: ['**/*.js'],
+    files: ['eslint.config.js'],
     ...js.configs.recommended,
   },
 ];
