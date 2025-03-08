@@ -1,11 +1,11 @@
 {
   "devDependencies": {
+    "@eslint/css": "",
     "@html-eslint/eslint-plugin": "",
     "@html-eslint/parser": "",
+    "@types/eslint": "",
     "eslint": "",
-    "prettier": "",
-    "stylelint": "",
-    "stylelint-config-standard": ""
+    "prettier": ""
   },
   "type": "module"
 }

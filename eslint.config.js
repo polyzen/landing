@@ -1,7 +1,18 @@
+import css from '@eslint/css';
 import html from '@html-eslint/eslint-plugin';
 
 /** @type { import('eslint').Linter.Config[] } */
 const config = [
+  {
+    files: ['**/*.css'],
+    plugins: {
+      css,
+    },
+    language: 'css/css',
+    rules: {
+      'css/require-baseline': 'off',
+    },
+  },
   {
     ...html.configs['flat/recommended'],
     files: ['**/*.html'],

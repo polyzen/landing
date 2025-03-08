@@ -10,8 +10,7 @@ lint:
       - .npm/
   script:
     - npm install --no-audit --cache .npm --prefer-offline
-    - npx eslint index.html
-    - npx stylelint style.css
+    - npx eslint
     - npx prettier --check .
   after_script:
     - mkdir public
