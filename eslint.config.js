@@ -1,6 +1,7 @@
 import css from '@eslint/css';
 import html from '@html-eslint/eslint-plugin';
 import js from '@eslint/js';
+import prettier from 'eslint-plugin-prettier/recommended';
 import yml from 'eslint-plugin-yml';
 import yamlParser from 'yaml-eslint-parser';
 
@@ -46,6 +47,7 @@ const config = [
       ...yml.configs.standard.rules,
     },
   },
+  prettier,
 ];
 
 export default config;

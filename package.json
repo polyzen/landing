@@ -5,6 +5,8 @@
     "@html-eslint/parser": "",
     "@types/eslint": "",
     "eslint": "",
+    "eslint-config-prettier": "",
+    "eslint-plugin-prettier": "",
     "eslint-plugin-yml": "",
     "prettier": ""
   },
