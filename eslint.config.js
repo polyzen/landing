@@ -1,6 +1,8 @@
 import css from '@eslint/css';
 import html from '@html-eslint/eslint-plugin';
 import js from '@eslint/js';
+import yml from 'eslint-plugin-yml';
+import yamlParser from 'yaml-eslint-parser';
 
 /** @type { import('eslint').Linter.Config[] } */
 const config = [
@@ -31,6 +33,18 @@ const config = [
   {
     files: ['eslint.config.js'],
     ...js.configs.recommended,
+  },
+  {
+    files: ['.gitlab-ci.yml'],
+    plugins: {
+      yml,
+    },
+    languageOptions: {
+      parser: yamlParser,
+    },
+    rules: {
+      ...yml.configs.standard.rules,
+    },
   },
 ];
 

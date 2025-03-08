@@ -5,6 +5,7 @@
     "@html-eslint/parser": "",
     "@types/eslint": "",
     "eslint": "",
+    "eslint-plugin-yml": "",
     "prettier": ""
   },
   "type": "module"
