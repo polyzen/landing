@@ -1,5 +1,6 @@
 import css from '@eslint/css';
 import html from '@html-eslint/eslint-plugin';
+import js from '@eslint/js';
 
 /** @type { import('eslint').Linter.Config[] } */
 const config = [
@@ -26,6 +27,10 @@ const config = [
       ],
       '@html-eslint/require-closing-tags': ['error', { selfClosing: 'always' }],
     },
+  },
+  {
+    files: ['**/*.js'],
+    ...js.configs.recommended,
   },
 ];
 
