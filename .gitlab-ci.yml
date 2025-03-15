@@ -8,8 +8,8 @@ lint:
   cache:
     paths:
       - .npm/
+  before_script: npm install --no-audit --cache .npm --prefer-offline
   script:
-    - npm install --no-audit --cache .npm --prefer-offline
     - npx eslint
     - npx prettier --check .
   after_script:
@@ -21,8 +21,7 @@ pages:
   variables:
     GIT_STRATEGY: none
   image: alpine
-  script:
-    - apk add brotli
-    - brotli public/*
+  before_script: apk add brotli
+  script: brotli public/*
   only:
     - master
