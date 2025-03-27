@@ -2,7 +2,7 @@
 
 html {
   /* Interpolate 16–32px font-size for 320–3840px device-width */
-  font-size: calc(16px + (32 - 16) * ((100vw - 320px) / (3840 - 320)));
+  font-size: calc(16px + (32 - 16) * ((100vi - 320px) / (3840 - 320)));
   line-height: 1.5;
 }
 
@@ -41,10 +41,10 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  block-size: 100vb;
   justify-content: center;
-  padding: 0 8.75vw;
-  row-gap: 12.5vh;
+  padding: 0 8.75vi;
+  row-gap: 12.5vb;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@ ul {
   font-size: 2em;
   gap: 1.25em;
   justify-content: center;
-  padding-left: 0;
+  padding-inline-start: 0;
 }
 
 li {

@@ -15,6 +15,7 @@ const config = [
     language: 'css/css',
     rules: {
       ...css.configs.recommended.rules,
+      'css/prefer-logical-properties': 'error',
       'css/use-baseline': 'off',
     },
   },
