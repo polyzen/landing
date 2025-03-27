@@ -1,14 +1,14 @@
 {
   "devDependencies": {
-    "@eslint/css": "",
-    "@html-eslint/eslint-plugin": "",
-    "@html-eslint/parser": "",
-    "@types/eslint": "",
-    "eslint": "",
-    "eslint-config-prettier": "",
-    "eslint-plugin-prettier": "",
-    "eslint-plugin-yml": "",
-    "prettier": ""
+    "@eslint/css": "^0.6.0",
+    "@html-eslint/eslint-plugin": "^0.37.0",
+    "@html-eslint/parser": "^0.37.0",
+    "@types/eslint": "^9.6.1",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "eslint-plugin-yml": "^1.17.0",
+    "prettier": "^3.5.3"
   },
   "type": "module"
 }
