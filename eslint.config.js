@@ -14,7 +14,8 @@ const config = [
     },
     language: 'css/css',
     rules: {
-      'css/require-baseline': 'off',
+      ...css.configs.recommended.rules,
+      'css/use-baseline': 'off',
     },
   },
   {
